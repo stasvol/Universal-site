@@ -66,10 +66,10 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+<!--    <div class="container">-->
 
-        <!--        SLIDE-->
-
+<!--        &lt;!&ndash;        SLIDE&ndash;&gt;-->
+<div class="container">
         <div class="slideshow-container">
             <div class="mySlides ">
                 <!--        <div class="row">-->
@@ -80,9 +80,11 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
                         <div class="box_all">
-                            <a href="#"><div class=" box2_div box1"> <span class="text_sp">топ акции</span></div></a>
-                            <a href="#"><div class=" box2_div box2"><span class="text_sp">с подарком</span></div></a>
-                            <a href="#"><div class="box2_div box3"><span class="text_sp">со скидкой</span></div></a>
+                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
+
+                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+
+                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
                         </div>
                     </div>
                 </div>
@@ -90,15 +92,20 @@
                 <div class="box_div">
 
                     <div class="row">
+
                         <div class="col-md-6 col-sm-6 col-xs-12">
+                            <img id="tab_1" class="tabs__item " src="img/5.jpeg" alt="image">
                             <img class="img-responsive" src="img/1.png" alt="image">
+
                             <div class="numbertext">1 / 3</div>
                             <div class="text">Caption One</div>
+
                         </div>
 
                         <div class="col-md-5 col-sm-5 col-xs-12">
 
                             <div class="">
+
                                 <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
                                 <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -132,9 +139,13 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
                         <div class="box_all">
-                            <a href="#"><div class=" box2_div box1"><span class="text_sp">топ акции</span></div></a>
-                            <a href="#"><div class=" box2_div box2"><span class="text_sp">с подарком</span></div></a>
-                            <a href="#"><div class="box2_div box3"><span class="text_sp">со скидкой</span></div></a>
+
+                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
+
+                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+
+                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
+
                         </div>
                     </div>
                 </div>
@@ -184,9 +195,13 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
                         <div class="box_all">
-                            <a href="#"><div class=" box2_div box1"><span class="text_sp">топ акции</span></div></a>
-                            <a href="#"><div class=" box2_div box2"><span class="text_sp">с подарком</span></div></a>
-                            <a href="#"><div class="box2_div box3"><span class="text_sp">со скидкой</span></div></a>
+
+                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
+
+                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+
+                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
+
                         </div>
                     </div>
                 </div>
@@ -236,114 +251,9 @@
             <img src="img/4.png" alt="image" class="dot" onclick="currentSlide(3)">
         </div>
 
-        <!--        TAB-->
 
-
-
-                <div class="w3-row-padding">
-                    <div class="box_div w3-col s3 w3-container">
-                        <a href="#топ акции" class="w3-hover-opacity" onclick="openImg('топ акции');">
-                            <div id="топ акции" class="picture w3-display-container" style="display:none">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <img class="img-responsive" src="img/duhi5.jpeg" alt="duhi5">
-
-                                </div>
-
-                                <div class="col-md-5 col-sm-5 col-xs-12">
-
-                                    <div class="">
-                                        <h2 class="head1">Tоп акции</h2>
-                                        <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu </span>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-warning btn1"><span
-                                                    class="text_sp2">Заказать!</span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="box_div w3-col s3 w3-container">
-                        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('pomada6.jpg');">
-                            <div id="C подарком" class="picture w3-display-container" style="display:none">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <img class="img-responsive" src="img/pomada6.jpg" alt="pomada6">
-
-                                </div>
-
-                                <div class="col-md-5 col-sm-5 col-xs-12">
-
-                                    <div class="">
-                                        <h2 class="head1">C подарком</h2>
-                                        <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu </span>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-warning btn1"><span
-                                                    class="text_sp2">Заказать!</span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </a>
-                    </div>
-
-
-                    <div class="box_div w3-col s3 w3-container">
-                        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('lak7.jpg');">
-                            <div id="Cо скидкой" class="picture w3-display-container" style="display:none">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <img class="img-responsive" src="img/lak7.jpg" alt="lak7">
-
-                                </div>
-
-                                <div class="col-md-5 col-sm-5 col-xs-12">
-
-                                    <div class="">
-                                        <h2 class="head1">Cо скидкой</h2>
-                                        <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu </span>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-warning btn1"><span
-                                                    class="text_sp2">Заказать!</span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-    </div>
+</div>
 </header>
-<body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

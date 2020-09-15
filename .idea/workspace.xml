@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="63ba805b-fa50-4410-b2ac-b09702437733" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/duhi5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lak7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pomada6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Kings of SEA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,7 +60,10 @@
       <workItem from="1599915203471" duration="28921000" />
       <workItem from="1599990348016" duration="12830000" />
       <workItem from="1600015621603" duration="10093000" />
-      <workItem from="1600100484831" duration="16450000" />
+      <workItem from="1600100484831" duration="17123000" />
+      <workItem from="1600188679447" duration="4144000" />
+      <workItem from="1600198086358" duration="59000" />
+      <workItem from="1600198420473" duration="9227000" />
     </task>
     <servers />
   </component>
@@ -61,9 +71,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1599922196240">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1600198150778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599922196240" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600198150778" />
   </component>
 </project>

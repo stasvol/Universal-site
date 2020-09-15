@@ -322,7 +322,7 @@ img {vertical-align: middle;}
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: transparent;
 }
 
 /* Fading animation */
@@ -346,6 +346,22 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+}
+
+  /*TAB*/
+/*.tabs__nav {*/
+/*    display: flex;*/
+/*}*/
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
+}
+
+.box_all > div {
+    cursor: pointer;
 }
 
 
