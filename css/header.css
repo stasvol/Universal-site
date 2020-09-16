@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/font-awesome-free-demo-sketch-ligatures.sketch');
+}
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../font/MuseoSansCyrl.otf');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/MuseoSansCyrl.otf') format('otf'), url("../font/OpenSans-Bold.ttf") format('ttf'), url("../font/OpenSans-Italic.ttf") format('ttf'),url("../font/OpenSans-Light.ttf") format('ttf'), url("../font/OpenSans-Regular.ttf") format('ttf'), url("../font/OpenSans-SemiBoldItalic.ttf") format('ttf') ;
+}
+
 *, html, :after, :before {
     box-sizing: border-box;
 }
@@ -15,6 +28,7 @@ html,
 body {
     font-family: "Open Sans", "Font Awesome", sans-serif;
 }
+
 
 .nav_box {
     margin-top: 20px;
@@ -358,10 +372,13 @@ img {vertical-align: middle;}
 
 .tabs__item.active {
     display: block;
+
 }
 
 .box_all > div {
     cursor: pointer;
 }
-
+.tabs__nav-btn.active {
+    background-color: #f8e8fe;
+}
 
