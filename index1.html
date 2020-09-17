@@ -14,7 +14,7 @@
 </head>
 <header class="bg_container">
 
-    <nav class=" navbar navbar-expand-lg navbar-light " style="background-image:url(img/01.png) ;">
+    <nav class=" navbar navbar-expand-lg navbar-light sticky-top" style="background-image:url(img/01.png) ;">
         <a class="navbar-brand" href="#"><img class="box_logo" src="img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,10 +66,9 @@
             </ul>
         </div>
     </nav>
-<!--    <div class="container">-->
 
-<!--        &lt;!&ndash;        SLIDE&ndash;&gt;-->
-<div class="container">
+    <!--        &lt;!&ndash;        SLIDE&ndash;&gt;-->
+    <div class="container">
         <div class="slideshow-container">
             <div class="mySlides ">
                 <!--        <div class="row">-->
@@ -80,12 +79,18 @@
 
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
+                        <div class="tabs__nav">
                         <div class="box_all">
-                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
 
-                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+                            <div data-tab="#tab_1" class="tabs__nav-btn  box2_div box1"><span
+                                    class="text_sp">топ акции</span></div>
 
-                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
+                            <div data-tab="#tab_2" class="tabs__nav-btn box2_div box2"><span
+                                    class="text_sp">с подарком</span></div>
+
+                            <div data-tab="#tab_3" class="tabs__nav-btn box2_div box3"><span
+                                    class="text_sp">со скидкой</span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,9 +99,9 @@
 
                     <div class="row">
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
 
-                            <img class="img-responsive" src="img/1.png" alt="image">
+                            <img class="img-responsive"  src="img/1.png" alt="image">
 
                             <div class="numbertext">1 / 3</div>
                             <div class="text">Caption One</div>
@@ -104,38 +109,35 @@
                         </div>
 
 
-                        <div class="col-md-5 col-sm-5 col-xs-12">
-
-<!--_____________________________________________TABS__________________________________________________________________________-->
-
-                            <div class="tab__item">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
 
 
 
-                            </div>
 
+                            <!--_____________________________________________TABS__________________________________________________________________________-->
 
-                            <div id="tab_1" class="tabs__item" >
-                                <h1  class=""  style="color: darkred; text-align: center">Топ акции !</h1>
-                                <h2  class="head1  ">Заголовок акции<br> в две строки идет тут </h2>
-                                <span class="text2_div ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <div class="tabs__content">
+
+                                <div id="tab_1" class="tabs__item">
+                                    <h2 class="head1  ">Заголовок акции<br> в две строки идет тут </h2>
+                                    <span class="text2_div ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 1</span>
-                            </div>
-                            <div id="tab_2" class="tabs__item">
-                                <h1  class=""  style="color: darkgreen; text-align: center">C подарком  ֍ </h1>
-                                <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
-                                <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+                                <div id="tab_2" class="tabs__item">
+                                    <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
+                                    <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 2</span>
-                            </div>
-                            <div id="tab_3" class="tabs__item">
-                                <h1  class=""  style="color: #2A32BB; text-align: center">Со скидкой ֎  </h1>
-                                <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
-                                <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+                                <div id="tab_3" class="tabs__item">
+                                    <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
+                                    <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 3</span>
+                                </div>
                             </div>
+                            <!-- _____________________________________________________________________________________________________________________________________________                           -->
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -162,14 +164,17 @@
                 <!--            </div>-->
                 <!--        </div>-->
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
                         <div class="box_all">
 
-                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
+                            <div data-tab="#tab_1" class="tabs__nav-btn  box2_div box1"><span
+                                    class="text_sp">топ акции</span></div>
 
-                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+                            <div data-tab="#tab_2" class="tabs__nav-btn box2_div box2"><span
+                                    class="text_sp">с подарком</span></div>
 
-                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
+                            <div data-tab="#tab_3" class="tabs__nav-btn box2_div box3"><span
+                                    class="text_sp">со скидкой</span></div>
 
                         </div>
                     </div>
@@ -178,20 +183,20 @@
                 <div class="box_div">
 
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <img class="img-responsive" src="img/5.jpeg" alt="image">
                             <div class="numbertext">2 / 3</div>
                             <div class="text">Caption Two</div>
                         </div>
 
-                        <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12 ">
 
-                            <div  class="">
+                            <div class="">
                                 <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
                                 <span class="text2_div">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 2</span>
-                        </div>
+                            </div>
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -218,14 +223,17 @@
                 <!--            </div>-->
                 <!--        </div>-->
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
                         <div class="box_all">
 
-                            <div data-tab="#tab_1"  class="tabs__nav-btn  box2_div box1"><span class="text_sp">топ акции</span></div>
+                            <div data-tab="#tab_1" class="tabs__nav-btn  box2_div box1"><span
+                                    class="text_sp">топ акции</span></div>
 
-                            <div data-tab="#tab_2"   class="tabs__nav-btn box2_div box2"><span class="text_sp">с подарком</span></div>
+                            <div data-tab="#tab_2" class="tabs__nav-btn box2_div box2"><span
+                                    class="text_sp">с подарком</span></div>
 
-                            <div data-tab="#tab_3"  class="tabs__nav-btn box2_div box3"><span class="text_sp">со скидкой</span></div>
+                            <div data-tab="#tab_3" class="tabs__nav-btn box2_div box3"><span
+                                    class="text_sp">со скидкой</span></div>
 
                         </div>
                     </div>
@@ -234,13 +242,13 @@
                 <div class="box_div">
 
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
                             <img class="img-responsive" src="img/6.jpg" alt="image">
                             <div class="numbertext">3 / 3</div>
                             <div class="text">Caption Three</div>
                         </div>
 
-                        <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
 
                             <div class="">
                                 <h2 class="head1">Заголовок акции<br> в две строки идет тут</h2>
@@ -277,7 +285,7 @@
         </div>
 
 
-</div>
+    </div>
 
 
 </header>
