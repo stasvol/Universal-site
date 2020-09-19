@@ -184,6 +184,12 @@ svg {
     filter: drop-shadow(0px 5px 7.5px rgba(34, 13, 54, 0.2));
     background-color: #8a74ae;
 }
+/*.bg {*/
+
+/*    background-color: #f8e8fe;*/
+/*    border-radius:0 15px 15px 0;*/
+/*    margin: 0;*/
+/*}*/
 
 .box_div {
     /*display: flex;*/
@@ -193,9 +199,11 @@ svg {
     /*top: 0 ;*/
     border-radius: 15px;
     background-color: #f8e8fe;
+    margin-bottom: 0;
 }
 .img-responsive {
     width: 100%;
+    margin: 0;
 }
 
 .box_all {
@@ -397,35 +405,201 @@ svg {
 
 @media(max-width: 1126px)  {
     .box_all {
-        display: flex;
-        flex-direction: row;
-        position: relative;
+
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*position: relative;*/
         /*margin-top: 90px;*/
         /* margin-bottom: 0; */
-          z-index: 1;
-        top: 705px;
-        left: -540px;
+        /*  z-index: 1;*/
+        /*top: 5px;*/
+        left: -90px;
+        /*top: 705px;*/
+        /*left: -540px;*/
+       padding-left: 0;
+
 
     }
+    .box2_div  {
+    padding: 0 20px 0 20px;
+}
+    .head1 {
+        margin-top: -30px;
+    }
+    /*.text_sp  {*/
+    /*    padding-left: 0;*/
+    /*    font-size: 17px;*/
+    /*    letter-spacing: 1px;*/
+    /*    line-height: 30px;*/
+    /*    color: #7a659b;*/
+    /*    font-weight: 700;*/
+    /*    font-family: "Open Sans";*/
+    /*}*/
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
         position: relative;
         top: 50px;
-        left: 30px ;
+        left: 0 ;
         border-radius: 28px;
         filter: drop-shadow(0px 3px 0px #e19e01);
         background-color: #ffb300;
-        margin-bottom: 50px;
+        bottom: 40px;
+
     }
- .col-sm-12 {
+ .col-md-6 {
+
      position: relative;
-     min-width: 100%;
-     margin-bottom: 40px;
+     min-width: 50%;
+     margin-bottom:0;
+
+
  }
+}
+@media(max-width: 1086px){
+    .prev {
+        left: -45px;
+        border-radius: 3px 0 0 3px;
+
+    }
+    .next {
+        right: -45px;
+        border-radius: 3px 0 0 3px;
+    }
+   .pr,.ne {
+        width: 25px;
+    }
+}
+@media(max-width: 1036px){
+    .prev {
+        left: -35px;
+        border-radius: 3px 0 0 3px;
+
+    }
+    .next {
+        right: -35px;
+        border-radius: 3px 0 0 3px;
+    }
+    .pr,.ne {
+        width: 15px;
+    }
+}
+@media(max-width: 1016px){
+    .prev {
+        left: -25px;
+        border-radius: 3px 0 0 3px;
+
+    }
+    .next {
+        right: -25px;
+        border-radius: 3px 0 0 3px;
+    }
+    .pr,.ne {
+        width: 10px;
+    }
+}
+@media(max-width: 997px){
+    .prev {
+        left: -23px;
+        border-radius: 3px 0 0 3px;
+
+    }
+    .next {
+        right: -23px;
+        border-radius: 3px 0 0 3px;
+    }
+    .pr,.ne {
+        width: 8px;
+    }
+}
+@media(max-width: 991px) {
+    .col-xs-12 {
+
+        position: relative;
+        min-width: 100%;
+        margin-bottom: 80px;
 
 
+    }
 
+    .prev {
+        left: -50px;
+        border-radius: 3px 0 0 3px;
+
+    }
+
+    .next {
+        right: -50px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .pr, .ne {
+        width: 20px;
+    }
+
+    .box_all {
+
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*position: relative;*/
+        /*margin-top: 90px;*/
+        /* margin-bottom: 0; */
+        /*  z-index: 1;*/
+        z-index: 1;
+        top: 588px;
+        left: -540px;
+        /*top: 705px;*/
+        /*left: -540px;*/
+        padding-left: 0;
+
+    }
+
+    .box2_div {
+        padding: 0 60px 0 60px;
+        border-radius: 0;
+    }
+
+    .head1 {
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    /*.text_sp  {*/
+    /*    padding-left: 0;*/
+    /*    font-size: 17px;*/
+    /*    letter-spacing: 1px;*/
+    /*    line-height: 30px;*/
+    /*    color: #7a659b;*/
+    /*    font-weight: 700;*/
+    /*    font-family: "Open Sans";*/
+    /*}*/
+    .btn1 {
+        /*width: 187px;*/
+        /*height: 57px;*/
+        position: relative;
+        top: 50px;
+        left: 300px;
+        border-radius: 28px;
+        filter: drop-shadow(0px 3px 0px #e19e01);
+        background-color: #ffb300;
+        bottom: 50px;
+
+
+    }
+
+    .text2_div {
+
+        /*width: 509px;*/
+        /*height: 116px;*/
+        position: relative;
+        left: 5px;
+        top: 45px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        color: #603f7d;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
 
 }
-
