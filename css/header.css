@@ -48,9 +48,6 @@ body {
     /*margin-left: 100px;*/
 }
 
-@media (max-width: 991px) {
-
-}
 
 .nav_div {
     cursor: pointer;
@@ -446,18 +443,37 @@ svg {
 }
 
 
- /*MEDIA  Slider*/
 
-@media (min-width: 1380px)  {
-    .box_logo {
+ /*MEDIA  Slider*/
+@media (min-width: 1690px)  {
+    .navbar {
         position: relative;
-        /*left: 100px;*/
-        /*margin-left: 105px;*/
-        margin-top: -10px;
+
+
+
     }
+
+    /*.box_logo {*/
+    /*    float: right;*/
+    /*    !*margin-left: 105px;*!*/
+    /*    !*margin-top: -70px;*!*/
+}
+@media (min-width: 1390px)  {
+.navbar {
+    position: relative;
+    padding-left:  10%;
 
 
 }
+
+/*.box_logo {*/
+/*    float: right;*/
+/*    !*margin-left: 105px;*!*/
+/*    !*margin-top: -70px;*!*/
+}
+
+
+
 
 @media (max-width: 1268px)  {
     .box_logo {
@@ -476,6 +492,7 @@ svg {
         white-space: normal;
 
     }
+
 
     .icon_div2  {
         min-width:160px ;
@@ -514,7 +531,7 @@ svg {
     }
 }
 
-@media(max-width: 1126px)  {
+@media(max-width: 1198px)  {
 
     .box_logo {
         margin-left: 105px;
@@ -694,8 +711,35 @@ svg {
         margin-top: 0;
         /*margin-left: 100px;*/
     }
+    .text_div {
+        max-width: 180px;
+        text-align: center;
+    }
+    .icon_div1 {
+        max-width: 180px;
+        max-height: 56px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 0;
+        border-radius: 10px;
+        background-color: rgba(91, 50, 129, 1);;
+        border: 1px solid #5b3281;
+        white-space: normal;
+
+    }
+    .icon_div2  {
+        max-width:180px ;
+        max-height: 56px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 0;
+        border-radius: 10px;
+        background-color: rgba(159, 135, 181, .1);
+        /*border: 1px solid #5b3281;*/
+        /*white-space: normal;*/
+    }
     .navbar {
-        max-height: 500px;
+        max-height: 600px;
         width: auto;
         background-image:url('../img/01.png'), url("../img/01.png");
         background-color: transparent;
