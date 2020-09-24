@@ -2,13 +2,15 @@
     font-family: 'FontAwesome';
     src: url('../font/font-awesome-free-demo-sketch-ligatures.sketch');
 }
+
 @font-face {
     font-family: 'MuseoSansCyrl';
     src: url('../font/MuseoSansCyrl.otf');
 }
+
 @font-face {
     font-family: 'OpenSans';
-    src: url('../font/MuseoSansCyrl.otf') format('otf'), url("../font/OpenSans-Bold.ttf") format('ttf'), url("../font/OpenSans-Italic.ttf") format('ttf'),url("../font/OpenSans-Light.ttf") format('ttf'), url("../font/OpenSans-Regular.ttf") format('ttf'), url("../font/OpenSans-SemiBoldItalic.ttf") format('ttf') ;
+    src: url('../font/MuseoSansCyrl.otf') format('otf'), url("../font/OpenSans-Bold.ttf") format('ttf'), url("../font/OpenSans-Italic.ttf") format('ttf'), url("../font/OpenSans-Light.ttf") format('ttf'), url("../font/OpenSans-Regular.ttf") format('ttf'), url("../font/OpenSans-SemiBoldItalic.ttf") format('ttf') ;
 }
 
 *, html, :after, :before {
@@ -54,9 +56,11 @@ body {
 }
 
 .navbar {
+    background-image: url("../img/01.png");
     max-height: 94px;
     width: auto;
 }
+
 
 .text_div {
     /*padding-top: 5px;*/
@@ -129,6 +133,7 @@ svg {
     border: 1px solid #5b3281;
     white-space: normal;
 }
+
 /*@media (max-width: 996px) {*/
 /*    .icon_div {*/
 /*        position: relative;*/
@@ -164,7 +169,7 @@ svg {
 /*        font-family: "Museo Sans Cyrl";*/
 /*    }*/
 /*}*/
-.bg  {
+.bg {
     padding-bottom: 40px;
 }
 
@@ -213,10 +218,12 @@ svg {
 
 .bg_container {
     /*width: 1949px;*/
-   min-height: 660px;
+    /*min-height: 300px;*/
+    width: auto;
     filter: drop-shadow(0px 5px 7.5px rgba(34, 13, 54, 0.2));
     background-color: #8a74ae;
 }
+
 /*.bg {*/
 
 /*    background-color: #f8e8fe;*/
@@ -234,6 +241,7 @@ svg {
     background-color: #f8e8fe;
     margin-bottom: 0;
 }
+
 .img-responsive {
     width: 100%;
     margin: 0;
@@ -259,7 +267,8 @@ svg {
     padding-left: 35px;
     padding-right: 35px;
 }
-.text_sp  {
+
+.text_sp {
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -267,11 +276,12 @@ svg {
     font-weight: 700;
     font-family: "Open Sans";
 }
-.head1  {
+
+.head1 {
     position: relative;
     top: 50px;
     /*left: 5px;*/
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -279,12 +289,14 @@ svg {
     font-weight: 600;
     font-family: "Open Sans";
     /*text-align: center;*/
-    text-transform:uppercase ;
+    text-transform: uppercase;
 }
+
 .text_content {
-    padding:0 40px 0 30px;
+    padding: 0 40px 0 30px;
     text-align: justify;
 }
+
 .text2_div {
     /*width: 509px;*/
     /*height: 116px;*/
@@ -298,6 +310,7 @@ svg {
     font-weight: 400;
     font-family: "Open Sans";
 }
+
 .btn1 {
     /*width: 187px;*/
     /*height: 57px;*/
@@ -309,7 +322,8 @@ svg {
     filter: drop-shadow(0px 3px 0px #e19e01);
     background-color: #ffb300;
 }
-.text_sp2  {
+
+.text_sp2 {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 22px;
@@ -317,9 +331,13 @@ svg {
     font-weight: 700;
     font-family: "Open Sans";
 }
-     /*SLIDER*/
 
-.mySlides {display: none}
+/*SLIDER*/
+
+.mySlides {
+    display: none
+}
+
 /*img {vertical-align: middle;}*/
 
 /* Slideshow container */
@@ -350,6 +368,7 @@ svg {
     left: -70px;
     border-radius: 3px 0 0 3px;
 }
+
 .next {
     right: -70px;
     border-radius: 3px 0 0 3px;
@@ -358,7 +377,7 @@ svg {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     /*background-color: #f8e8fe;*/
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Caption text */
@@ -407,21 +426,31 @@ svg {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev, .next, .text {
+        font-size: 11px
+    }
 }
 
-  /*TAB*/
+/*TAB*/
 /*.tabs__nav {*/
 /*    display: flex;*/
 /*}*/
@@ -434,7 +463,7 @@ svg {
 
 }
 
-.box_all    {
+.box_all {
     cursor: pointer;
 }
 
@@ -443,12 +472,11 @@ svg {
 }
 
 
-
- /*MEDIA  Slider*/
-@media (min-width: 1690px)  {
+/*MEDIA  Slider*/
+@media (min-width: 1690px) {
     .navbar {
-        position: relative;
 
+        margin: 0 auto;
 
 
     }
@@ -458,81 +486,23 @@ svg {
     /*    !*margin-left: 105px;*!*/
     /*    !*margin-top: -70px;*!*/
 }
-@media (min-width: 1390px)  {
-.navbar {
-    position: relative;
-    padding-left:  10%;
 
-
-}
-
-/*.box_logo {*/
-/*    float: right;*/
-/*    !*margin-left: 105px;*!*/
-/*    !*margin-top: -70px;*!*/
-}
-
-
-
-
-@media (max-width: 1268px)  {
-    .box_logo {
-        margin-left: 105px;
-        margin-top: -70px;
-    }
-    .icon_div1 {
-        min-width: 160px;
-        max-height: 56px;
-        position: relative;
-        margin-top: 80px;
-        margin-left: -760px;
-        border-radius: 10px;
-        background-color: rgba(91, 50, 129, 1);;
-        border: 1px solid #5b3281;
-        white-space: normal;
-
-    }
-
-
-    .icon_div2  {
-        min-width:160px ;
-        max-height: 56px;
-
-        margin-top: 80px;
-        margin-left: 10px;
-        border-radius: 10px;
-        background-color: rgba(159, 135, 181, .1);
-        /*border: 1px solid #5b3281;*/
-        /*white-space: normal;*/
-    }
-
-    .icon_text2 {
-        position: relative;
-        bottom: 4px;
-        left: -40px;
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 17px;
-        color: #5b3281;
-        font-family: "Museo Sans Cyrl";
-
-    }
+@media (min-width: 1390px) {
     .navbar {
-        max-height: 500px;
-        width: auto;
-        background-image:url('../img/01.png'), url("../img/01.png");
-        background-color: transparent;
-        /*background-repeat:no-repeat, repeat ;*/
-        background-size: cover;
-        /*position: relative;*/
-        /*transform: translate(50% 50%);*/
-        /*object-fit: cover;*/
-        /*background-blend-mode: luminosity;*/
+        position: relative;
+        padding-left: 10%;
+
+
     }
+
+    /*.box_logo {*/
+    /*    float: right;*/
+    /*    !*margin-left: 105px;*!*/
+    /*    !*margin-top: -70px;*!*/
 }
 
-@media(max-width: 1198px)  {
 
+@media (max-width: 1268px) {
     .box_logo {
         margin-left: 105px;
         margin-top: -70px;
@@ -551,8 +521,9 @@ svg {
 
     }
 
-    .icon_div2  {
-        min-width:160px ;
+
+    .icon_div2 {
+        min-width: 160px;
         max-height: 56px;
 
         margin-top: 80px;
@@ -578,7 +549,7 @@ svg {
     .navbar {
         max-height: 500px;
         width: auto;
-        background-image:url('../img/01.png'), url("../img/01.png");
+        background-image: url('../img/01.png'), url("../img/01.png");
         background-color: transparent;
         /*background-repeat:no-repeat, repeat ;*/
         background-size: cover;
@@ -587,6 +558,65 @@ svg {
         /*object-fit: cover;*/
         /*background-blend-mode: luminosity;*/
     }
+}
+
+@media (max-width: 1198px) {
+
+    .box_logo {
+        margin-left: 105px;
+        margin-top: -70px;
+    }
+
+    .icon_div1 {
+        min-width: 160px;
+        max-height: 56px;
+        position: relative;
+        margin-top: 80px;
+        margin-left: -760px;
+        border-radius: 10px;
+        background-color: rgba(91, 50, 129, 1);;
+        border: 1px solid #5b3281;
+        white-space: normal;
+
+    }
+
+    .icon_div2 {
+        min-width: 160px;
+        max-height: 56px;
+
+        margin-top: 80px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: rgba(159, 135, 181, .1);
+        /*border: 1px solid #5b3281;*/
+        /*white-space: normal;*/
+    }
+
+    .icon_text2 {
+        position: relative;
+        bottom: 4px;
+        left: -40px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 17px;
+        color: #5b3281;
+        font-family: "Museo Sans Cyrl";
+
+    }
+
+    .navbar {
+        max-height: 500px;
+        width: auto;
+        background-image: url('../img/01.png'), url("../img/01.png");
+        background-color: transparent;
+        /*background-repeat:no-repeat, repeat ;*/
+        background-size: cover;
+        /*position: relative;*/
+        /*transform: translate(50% 50%);*/
+        /*object-fit: cover;*/
+        /*background-blend-mode: luminosity;*/
+    }
+
     .text {
         color: #f2f2f2;
         font-size: 15px;
@@ -596,6 +626,7 @@ svg {
         width: 100%;
         text-align: center;
     }
+
     .img-responsive {
         min-height: 358px;
     }
@@ -612,15 +643,18 @@ svg {
         left: -90px;
         /*top: 705px;*/
         /*left: -540px;*/
-       padding-left: 0;
+        padding-left: 0;
     }
-    .box2_div  {
-    padding: 0 20px 0 20px;
-}
+
+    .box2_div {
+        padding: 0 20px 0 20px;
+    }
+
     .head1 {
         margin-top: -30px;
     }
-    .text_sp  {
+
+    .text_sp {
         padding-left: 0;
         font-size: 17px;
         letter-spacing: 1px;
@@ -629,12 +663,13 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
         /*position: relative;*/
         /*top: 50px;*/
-        left: 30px ;
+        left: 30px;
         border-radius: 28px;
         filter: drop-shadow(0px 3px 0px #e19e01);
         background-color: #ffb300;
@@ -642,79 +677,94 @@ svg {
 
     }
 
- .col-md-6 {
+    .col-md-6 {
 
-     position: relative;
-     min-width: 50%;
- }
+        position: relative;
+        min-width: 50%;
+    }
 }
-@media(max-width: 1086px){
+
+@media (max-width: 1086px) {
     .prev {
         left: -45px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -45px;
         border-radius: 3px 0 0 3px;
     }
-   .pr,.ne {
+
+    .pr, .ne {
         width: 25px;
     }
 }
-@media(max-width: 1036px){
+
+@media (max-width: 1036px) {
     .prev {
         left: -35px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -35px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 15px;
     }
 }
-@media(max-width: 1016px){
+
+@media (max-width: 1016px) {
     .prev {
         left: -26px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -26px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 10px;
     }
 }
-@media(max-width: 999px){
+
+@media (max-width: 999px) {
     .prev {
         left: -22px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -22px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 8px;
 
     }
 }
-@media(max-width: 991px) {
+
+@media (max-width: 991px) {
     .box_logo {
         margin-left: 0;
         margin-top: 0;
         /*margin-left: 100px;*/
     }
+
     .text_div {
         max-width: 180px;
         text-align: center;
     }
+
     .icon_div1 {
         max-width: 180px;
         max-height: 56px;
@@ -727,8 +777,9 @@ svg {
         white-space: normal;
 
     }
-    .icon_div2  {
-        max-width:180px ;
+
+    .icon_div2 {
+        max-width: 180px;
         max-height: 56px;
         margin-bottom: 20px;
         margin-top: 20px;
@@ -738,24 +789,25 @@ svg {
         /*border: 1px solid #5b3281;*/
         /*white-space: normal;*/
     }
+
     .navbar {
-        max-height: 600px;
+        max-height: 600vh;
         width: auto;
-        background-image:url('../img/01.png'), url("../img/01.png");
+        background-image: url('../img/01.png'), url("../img/01.png");
         background-color: transparent;
-        background-repeat:no-repeat, repeat ;
+        background-repeat: no-repeat, repeat;
         background-size: cover;
         position: relative;
+
         /*transform: translate(50% 50%);*/
         /*object-fit: cover;*/
         /*background-blend-mode: luminosity;*/
     }
 
-    .navbar {
-        min-height: 94px;
-        width: auto;
-    }
-
+    /*.navbar {*/
+    /*    min-height: 94px;*/
+    /*    width: auto;*/
+    /*}*/
     .col-xs-12 {
 
         position: relative;
@@ -829,6 +881,7 @@ svg {
 
 
     }
+
     .box_div {
         padding-bottom: 40px;
     }
@@ -849,12 +902,14 @@ svg {
     }
 
 }
+
 @media (max-width: 806px) {
     .prev {
         left: -30px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -30px;
         border-radius: 3px 0 0 3px;
@@ -863,6 +918,7 @@ svg {
     .pr, .ne {
         width: 12px;
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -872,15 +928,18 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 767px) {
     .box_all {
         top: 458px;
         /*left: -540px;*/
     }
+
     .box2_div {
         padding: 0 30px 0 30px;
         border-radius: 0;
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -898,13 +957,16 @@ svg {
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -50px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 25px;
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -914,19 +976,23 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 627px) {
     .prev {
         left: -35px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -35px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 15px;
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -936,32 +1002,38 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 597px) {
     .prev {
         left: -30px;
         border-radius: 3px 0 0 3px;
 
     }
+
     .next {
         right: -30px;
         border-radius: 3px 0 0 3px;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 10px;
         padding: 0;
     }
+
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
-         margin-right: 0;
-         margin-left: 0;
+        margin-right: 0;
+        margin-left: 0;
     }
+
     .text {
         position: absolute;
         left: 120px;
         width: 50%;
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -971,33 +1043,39 @@ svg {
         bottom: 50px;
     }
 }
-@media (max-width: 575px)  {
+
+@media (max-width: 575px) {
     .prev {
         left: -15px;
         border-radius: 3px 0 0 3px;
         padding: 0;
 
     }
-   .next {
+
+    .next {
         right: -15px;
         border-radius: 3px 0 0 3px;
         padding: 0;
     }
-    .pr,.ne {
+
+    .pr, .ne {
         width: 10px;
 
     }
+
     .box_all {
         z-index: 1;
         top: 470px;
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 38.8px 0 38.8px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 15px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1005,6 +1083,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1013,6 +1092,7 @@ svg {
         left: 190px;
         bottom: 50px;
     }
+
     .text {
         position: absolute;
         /*left: 80px;*/
@@ -1020,6 +1100,7 @@ svg {
         bottom: 20px;
     }
 }
+
 @media (max-width: 574px) {
     .box_all {
         z-index: 1;
@@ -1027,11 +1108,13 @@ svg {
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 38.6px 0 38.6px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 15px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1040,6 +1123,7 @@ svg {
         font-family: "Open Sans";
     }
 }
+
 @media (max-width: 539px) {
     .box_all {
         z-index: 1;
@@ -1047,11 +1131,13 @@ svg {
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 32.6px 0 32.6px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 15px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1059,12 +1145,14 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .text {
         position: absolute;
         /*left: 80px;*/
         /*width: 50%;*/
         /*bottom: 20px;*/
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1074,6 +1162,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 501px) {
     .box_all {
         z-index: 1;
@@ -1081,11 +1170,13 @@ svg {
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 20.7px 0 20.7px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 17px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1093,6 +1184,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1102,6 +1194,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 467px) {
     .box_all {
         z-index: 1;
@@ -1109,11 +1202,13 @@ svg {
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 15px 0 15px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 17px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1121,6 +1216,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1130,6 +1226,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 430px) {
     .box_all {
         z-index: 1;
@@ -1137,11 +1234,13 @@ svg {
         left: -540px;
         /*padding-left: 0;*/
     }
+
     .box2_div {
         padding: 0 8.9px 0 8.9px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 17px;
         letter-spacing: 1px;
         line-height: 10px;
@@ -1149,6 +1248,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1159,18 +1259,20 @@ svg {
     }
 }
 
-    @media (max-width: 395px) {
+@media (max-width: 395px) {
     .box_all {
         z-index: 1;
         top: 463px;
         left: -540px;
         padding-left: 0;
     }
+
     .box2_div {
         padding: 0 8.8px 0 8.8px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 15px;
         letter-spacing: 1px;
         line-height: 6px;
@@ -1178,6 +1280,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1187,6 +1290,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 361px) {
     .box_all {
         z-index: 1;
@@ -1194,11 +1298,13 @@ svg {
         left: -540px;
         padding-left: 0;
     }
+
     .box2_div {
         padding: 0 3.1px 0 3.1px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 15px;
         letter-spacing: 1px;
         line-height: 6px;
@@ -1206,6 +1312,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1215,6 +1322,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 328px) {
     .box_all {
         z-index: 1;
@@ -1222,11 +1330,13 @@ svg {
         left: -540px;
         padding-left: 0;
     }
+
     .box2_div {
         padding: 0 3.4px 0 3.4px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 13px;
         letter-spacing: 1px;
         line-height: 2px;
@@ -1234,6 +1344,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1243,6 +1354,7 @@ svg {
         bottom: 50px;
     }
 }
+
 @media (max-width: 320px) {
     .box_all {
         z-index: 1;
@@ -1250,11 +1362,13 @@ svg {
         left: -540px;
         padding-left: 0;
     }
+
     .box2_div {
         padding: 0 5px 0 5px;
         border-radius: 0;
     }
-    .text_sp  {
+
+    .text_sp {
         font-size: 12px;
         letter-spacing: 1px;
         line-height: 2px;
@@ -1262,6 +1376,7 @@ svg {
         font-weight: 700;
         font-family: "Open Sans";
     }
+
     .btn1 {
         /*width: 187px;*/
         /*height: 57px;*/
@@ -1270,9 +1385,205 @@ svg {
         left: 75px;
         bottom: 50px;
     }
+
     .text {
         position: absolute;
         left: 80px;
         width: 50%;
     }
 }
+
+/*NAV BACKGROUND*/
+
+/*.wave {*/
+/*    !*background-image: url("../img/01.png");*!*/
+/*    max-height: 94px;*/
+/*    width: auto;*/
+/*}*/
+/*.wave{*/
+/*    background:*/
+/*            linear-gradient(to right, sandybrown, chocolate);*/
+/*    !*height: 50px;*!*/
+/*    position: relative;*/
+/*}*/
+/*.wave::before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 10px;*/
+/*    background-size: 20px 20px;*/
+/*    background-image:*/
+/*            radial-gradient(circle at 10px -5px, transparent 12px, #8a74ae 13px);*/
+/*}*/
+/*.wave::after{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 15px;*/
+/*    background-size: 40px 20px;*/
+/*    background-image:*/
+/*            radial-gradient(circle at 10px 15px, #8a74ae 12px, transparent 13px);*/
+/*}*/
+
+/*________________________________________________________________________________________________________________________________________*/
+
+/*Относительно легко нарисовать такую ​​границу с помощью пары псевдоэлементов.*/
+
+/*Сначала рисуем низ волны:*/
+
+/*.wave {*/
+/*    background: linear-gradient(to right, sandybrown, chocolate);*/
+/*    height: 50px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.wave::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 10px;*/
+/*    background-size: 20px 20px;*/
+/*    background-image: radial-gradient(circle at 10px -5px, transparent 12px, maroon 13px);*/
+/*}*/
+
+/*<div class='wave'></div>*/
+/*                    Запустить фрагмент кодаРазвернуть фрагмент*/
+/*                    Затем мы заполняем каждую вторую канаву фоном другого псевдоэлемента. Этот фон вдвое шире, поэтому мы заполняем только лишние канавы.*/
+
+/*.wave {*/
+/*    background: linear-gradient(to right, sandybrown, chocolate);*/
+/*    height: 50px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.wave::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 15px;*/
+/*    background-size: 40px 20px;*/
+/*    background-image: radial-gradient(circle at 10px 15px, crimson 12px, transparent 13px);*/
+/*}*/
+
+/*<div class='wave'></div>*/
+/*                    Запустить фрагмент кодаРазвернуть фрагмент*/
+/*                    Их сочетание дает желаемый эффект:*/
+
+/*.wave {*/
+/*    background: linear-gradient(to right, sandybrown, chocolate);*/
+/*    height: 50px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.wave::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 10px;*/
+/*    background-size: 20px 20px;*/
+/*    background-image: radial-gradient(circle at 10px -5px, transparent 12px, aquamarine 13px);*/
+/*}*/
+
+/*.wave::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-repeat: repeat;*/
+/*    height: 15px;*/
+/*    background-size: 40px 20px;*/
+/*    background-image: radial-gradient(circle at 10px 15px, aquamarine 12px, transparent 13px);*/
+
+
+/*<div class='wave'></div>*/
+/*                    Запустить фрагмент кодаРазвернуть фрагмент*/
+/*                    Обновился с более плоской волной.*/
+
+.wave {
+    background: linear-gradient(to right, sandybrown, chocolate);
+    height: 50px;
+    position: relative;
+}
+
+.wave::before, .wave::after {
+    border-bottom: 5px solid white;
+}
+
+.wave::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    background-size: 20px 40px;
+    background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+
+.wave::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+
+/*<div class='wave'></div>*/
+/*________________________________________________________________________________________________________________________*/
+/*Пытаться-сделать волны вверх*/
+
+/*#wave {*/
+/*    position: relative;*/
+/*    height: 70px;*/
+/*    width: 54px;*/
+/*    background:#79C5BD none repeat scroll 0% 0%;float:left;margin-top:20px*/
+/*}*/
+/*#wave::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    border-radius: 100% 100%;*/
+/*    height: 70px;*/
+/*    background-color: #79C5BD;*/
+/*    left: 0px;*/
+/*    bottom: 27px;*/
+/*    width: 60px;*/
+/*}*/
+/*#wave {*/
+/*    position: relative;*/
+/*    height: 70px;*/
+/*    width: 54px;*/
+/*    background:#79C5BD none repeat scroll 0% 0%;float:left;margin-top:20px*/
+/*}*/
+/*#wave::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    border-radius: 100% 100%;*/
+/*    height: 70px;*/
+/*    background-color: #79C5BD;*/
+/*    left: 0px;*/
+/*    bottom: 27px;*/
+/*    width: 60px;*/
+/*}*/
+
+/*________________________________________________________________________________________________________________________________________*/
