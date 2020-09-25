@@ -55,11 +55,11 @@ body {
     cursor: pointer;
 }
 
-.navbar {
-    background-image: url("../img/01.png");
-    max-height: 94px;
-    width: auto;
-}
+/*.navbar {*/
+/*    background-image: url("../img/01.png");*/
+/*    max-height: 94px;*/
+/*    width: auto;*/
+/*}*/
 
 
 .text_div {
@@ -549,7 +549,7 @@ svg {
     .navbar {
         max-height: 500px;
         width: auto;
-        background-image: url('../img/01.png'), url("../img/01.png");
+        /*background-image: url('../img/01.png'), url("../img/01.png");*/
         background-color: transparent;
         /*background-repeat:no-repeat, repeat ;*/
         background-size: cover;
@@ -607,7 +607,7 @@ svg {
     .navbar {
         max-height: 500px;
         width: auto;
-        background-image: url('../img/01.png'), url("../img/01.png");
+        /*background-image: url('../img/01.png'), url("../img/01.png");*/
         background-color: transparent;
         /*background-repeat:no-repeat, repeat ;*/
         background-size: cover;
@@ -790,24 +790,26 @@ svg {
         /*white-space: normal;*/
     }
 
+
     .navbar {
-        max-height: 600vh;
+        max-height: 500vh;
         width: auto;
-        background-image: url('../img/01.png'), url("../img/01.png");
-        background-color: transparent;
-        background-repeat: no-repeat, repeat;
-        background-size: cover;
+        /*background-image: url('../img/01.png'), url("../img/01.png");*/
+        /*background-color: transparent;*/
+        background-repeat: no-repeat  repeat;
+        background-size:cover;
+        background-position:0  ;
         position: relative;
+        /*background-color: #dabcd3;*/
+        /*text-decoration-style:wavy ;*/
+
 
         /*transform: translate(50% 50%);*/
         /*object-fit: cover;*/
         /*background-blend-mode: luminosity;*/
     }
 
-    /*.navbar {*/
-    /*    min-height: 94px;*/
-    /*    width: auto;*/
-    /*}*/
+
     .col-xs-12 {
 
         position: relative;
@@ -1508,7 +1510,7 @@ svg {
 /*    background-repeat: repeat;*/
 /*    height: 15px;*/
 /*    background-size: 40px 20px;*/
-/*    background-image: radial-gradient(circle at 10px 15px, aquamarine 12px, transparent 13px);*/
+/*    background-image: radial-gradient(circle at 10px 15px, aquamarine 12px, transparent 13px);}*/
 
 
 /*<div class='wave'></div>*/
@@ -1516,13 +1518,13 @@ svg {
 /*                    Обновился с более плоской волной.*/
 
 .wave {
-    background: linear-gradient(to right, sandybrown, chocolate);
-    height: 50px;
+    background: linear-gradient(to right, #DABCD3, #DABCD3);
+    height: 94px;
     position: relative;
 }
 
 .wave::before, .wave::after {
-    border-bottom: 5px solid white;
+    /*border-bottom: 5px solid white;*/
 }
 
 .wave::before {
@@ -1533,7 +1535,7 @@ svg {
     bottom: 0;
     height: 10px;
     background-size: 20px 40px;
-    background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+    background-image: radial-gradient(circle at 10px -15px, transparent 20px, #8a74ae 21px);
 }
 
 .wave::after {
@@ -1544,7 +1546,7 @@ svg {
     bottom: 0;
     height: 15px;
     background-size: 40px 40px;
-    background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+    background-image: radial-gradient(circle at 10px 26px, #8a74ae 20px, transparent 21px);
 }
 
 /*<div class='wave'></div>*/
