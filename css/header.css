@@ -34,6 +34,7 @@ body {
 
 
 .nav_box {
+    background-image: url("../img/01.png");
     margin-top: 20px;
     margin-bottom: 20px;
     /*margin-left: 50px;*/
@@ -55,11 +56,13 @@ body {
     cursor: pointer;
 }
 
-/*.navbar {*/
-/*    background-image: url("../img/01.png");*/
-/*    max-height: 94px;*/
-/*    width: auto;*/
-/*}*/
+.navbar {
+    background-image: url("../img/01.png");
+    max-height: 94px;
+    width: auto;
+}
+
+
 
 
 .text_div {
@@ -547,13 +550,13 @@ svg {
     }
 
     .navbar {
-        max-height: 500px;
+        max-height: 400px;
         width: auto;
-        /*background-image: url('../img/01.png'), url("../img/01.png");*/
+        background-image: url('../img/01.png');
         background-color: transparent;
-        /*background-repeat:no-repeat, repeat ;*/
+        background-repeat:no-repeat, repeat ;
         background-size: cover;
-        /*position: relative;*/
+        position: relative;
         /*transform: translate(50% 50%);*/
         /*object-fit: cover;*/
         /*background-blend-mode: luminosity;*/
@@ -754,6 +757,13 @@ svg {
 }
 
 @media (max-width: 991px) {
+    /*.nav_box {*/
+    /*    background-image: url("../img/01.png");*/
+    /*    !*margin-top: 20px;*!*/
+    /*    !*margin-bottom: 20px;*!*/
+    /*    !*margin-left: 50px;*!*/
+    /*    !*padding-left: 50px;*!*/
+    /*}*/
     .box_logo {
         margin-left: 0;
         margin-top: 0;
@@ -794,11 +804,12 @@ svg {
     .navbar {
         max-height: 500vh;
         width: auto;
+        background-image:url("../img/011111.png");
         /*background-image: url('../img/01.png'), url("../img/01.png");*/
         /*background-color: transparent;*/
-        background-repeat: no-repeat  repeat;
+        background-repeat: no-repeat;
         background-size:cover;
-        background-position:0  ;
+        background-position:0;
         position: relative;
         /*background-color: #dabcd3;*/
         /*text-decoration-style:wavy ;*/
@@ -1519,7 +1530,7 @@ svg {
 
 .wave {
     background: linear-gradient(to right, #DABCD3, #DABCD3);
-    height: 94px;
+    height:400px;
     position: relative;
 }
 
