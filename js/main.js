@@ -64,6 +64,21 @@
 
 
 
+   //  var navEl = document.getElementById('nav_btn');;
+   // navEl.addEventListener('click', function  () {
+   //
+   //     // console.log(navEl.style.backgroundImage);
+   //     if (this.style.backgroundImage ==='url("img/01.png")' ) {
+   //          this.style.backgroundImage ='url("img/02.png")';
+   //     }else {
+   //         this.style.backgroundImage ='url("img/01.png")'
+   //     }
+   //     console.log(this.style.backgroundImage);
+   // });
+
+
+
+
    // function openImg(imgName) {
    //     var i, x;
    //     x = document.getElementsByClassName("picture");
