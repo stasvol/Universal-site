@@ -4,19 +4,7 @@
     <list default="true" id="63ba805b-fa50-4410-b2ac-b09702437733" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/0111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/011111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/0111111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images/1170px_12columnsОСНТИПОГР_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images/5.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images/5.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images/5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +72,10 @@
       <workItem from="1601050115604" duration="16430000" />
       <workItem from="1601138762421" duration="13633000" />
       <workItem from="1601194072785" duration="7753000" />
-      <workItem from="1601215284898" duration="5941000" />
+      <workItem from="1601215284898" duration="6885000" />
+      <workItem from="1601223838869" duration="2083000" />
+      <workItem from="1601312532108" duration="5791000" />
+      <workItem from="1601403834705" duration="1742000" />
     </task>
     <servers />
   </component>
@@ -92,10 +83,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1600198150778">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601312612402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600198150778" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601312612402" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600968063188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

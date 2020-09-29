@@ -477,9 +477,9 @@ svg {
 
 /*MEDIA  Slider*/
 @media (min-width: 1690px) {
-    .navbar {
-
-        margin: 0 auto;
+    .nav {
+        position: relative;
+        padding-left: -20%;
 
 
     }
