@@ -1,6 +1,7 @@
 
    // СЛАЙДЕР
 
+
    var slideIndex = 1;
    showSlides(slideIndex);
 
@@ -27,6 +28,8 @@
        slides[slideIndex-1].style.display = "block";
        dots[slideIndex-1].className += " active";
    }
+
+
 
        // __________TAB______________
 
@@ -64,17 +67,17 @@
 
 
 
-   //  var navEl = document.getElementById('nav_btn');;
-   // navEl.addEventListener('click', function  () {
-   //
-   //     // console.log(navEl.style.backgroundImage);
-   //     if (this.style.backgroundImage ==='url("img/01.png")' ) {
-   //          this.style.backgroundImage ='url("img/02.png")';
-   //     }else {
-   //         this.style.backgroundImage ='url("img/01.png")'
-   //     }
-   //     console.log(this.style.backgroundImage);
-   // });
+    var navEl = document.getElementById('nav_btn');;
+   navEl.addEventListener('click', function  () {
+
+       // console.log(navEl.style.backgroundImage);
+       if (this.style.backgroundImage ==='url("img/01.png")' ) {
+            this.style.backgroundImage ='url("img/02.png")';
+       }else {
+           this.style.backgroundImage ='url("img/01.png")'
+       }
+       console.log(this.style.backgroundImage);
+   });
 
 
 
