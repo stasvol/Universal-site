@@ -122,7 +122,7 @@
     /*height: 71px;*/
     padding: 20px 0;
     min-width: 100%;
-    font-size: 31px;
+    font-size: 35px;
     letter-spacing: 2px;
     line-height: 23px;
     color: #000000;
@@ -141,3 +141,12 @@
     border: 1px solid #981717;
     margin: 50px 0 100px 475px;
 }
+
+#bg_section{
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+
+}
+
