@@ -34,7 +34,7 @@ function showGallery(n) {
     // captionText.innerHTML = dot[counter-1].alt;
 }
 
-var elSlide = document.querySelectorAll ('.bg_slide1');
+var elSlide = document.querySelectorAll ('.bg_slide');
 var sectionBackground = document.getElementById('bg_section');
 
 
@@ -44,7 +44,7 @@ elSlide.forEach(function (el) {
 
         // const attr = elSlide.getAttribute('src');
         // sectionBackground.style.backgroundImage = `url('${attr}')`;
-        sectionBackground.style.backgroundImage = "url('" + el.getAttribute('src') + "')";
+        sectionBackground.style.backgroundImage = "url('" + el.getAttribute('data-src') + "')";
 
 
     } );

@@ -150,3 +150,506 @@
 
 }
 
+@media (max-width:1200px ) {
+    .prev1 {
+
+        left: 0;
+        top: 620px;
+    }
+    .next1 {
+
+        right: -17px;
+        top: 620px;
+        border-radius: 3px 0 0 3px;
+    }
+    .slide_head {
+
+        padding: 20px 0;
+        min-width: 100%;
+        font-size: 30px;
+        letter-spacing: 2px;
+        line-height: 23px;
+
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 100px 400px;
+    }
+}
+
+@media (max-width: 991px ) {
+    .prev1 {
+
+        left: -15px;
+        top: 460px;
+    }
+    .next1 {
+
+        right: -17px;
+        top: 460px;
+        border-radius: 3px 0 0 3px;
+    }
+    .slide_head {
+
+        padding: 20px 0;
+        min-width: 100%;
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 23px;
+
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 270px;
+    }
+
+
+   /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 32px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 767px) {
+    .pr1,
+    .ne1 {
+      width: 16px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 352px;
+    }
+    .next1 {
+
+        right: -17px;
+        top: 352px;
+        border-radius: 3px 0 0 3px;
+    }
+    .slide_head {
+
+        padding: 20px 0;
+        min-width: 100%;
+        font-size: 23px;
+        letter-spacing: 2px;
+        line-height: 23px;
+
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 180px;
+    }
+
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 22px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 575px) {
+    .pr1,
+    .ne1 {
+        width: 16px;
+    }
+    .prev1 {
+
+        left: -13px;
+        top: 360px;
+    }
+    .next1 {
+
+        right: -13px;
+        top: 360px;
+        border-radius: 3px 0 0 3px;
+    }
+
+}
+@media (max-width: 568px) {
+    .pr1,
+    .ne1 {
+        width: 15px;
+    }
+    .prev1 {
+
+        left: -13px;
+        top: 355px;
+    }
+    .next1 {
+
+        right: -13px;
+        top: 355px;
+        border-radius: 3px 0 0 3px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .pr1,
+    .ne1 {
+        width: 14px;
+    }
+    .prev1 {
+
+        left: -13px;
+        top: 340px;
+    }
+    .next1 {
+
+        right: -13px;
+        top: 340px;
+        border-radius: 3px 0 0 3px;
+    }
+}
+
+@media (max-width: 530px) {
+    .pr1,
+    .ne1 {
+        width: 12px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 330px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 330px;
+        border-radius: 3px 0 0 3px;
+    }
+}
+
+@media (max-width: 506px) {
+    .pr1,
+    .ne1 {
+        width: 11px;
+    }
+    .prev1 {
+
+        left: -10px;
+        top: 320px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 320px;
+        border-radius: 3px 0 0 3px;
+    }
+}
+
+@media (max-width: 490px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 310px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 310px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 150px;
+    }
+
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 470px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 292px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 292px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 135px;
+    }
+
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 17px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 445px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 278px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 278px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 120px;
+    }
+
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 17px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 420px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 260px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 260px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 120px;
+    }
+
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 23px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+    .column {
+        float: left;
+        width: 17%;
+        /*position: relative;*/
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 390px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 240px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 240px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 90px;
+    }
+
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 23px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+    .column {
+        float: left;
+        width: 17%;
+        /*position: relative;*/
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 370px) {
+    .pr1,
+    .ne1 {
+        width: 10px;
+    }
+    .prev1 {
+
+        left: -15px;
+        top: 230px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 230px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 90px;
+    }
+
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 23px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+    .column {
+        float: left;
+        width: 17%;
+        /*position: relative;*/
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 350px) {
+
+    .prev1 {
+
+        left: -15px;
+        top: 220px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 220px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 80px;
+    }
+
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+
+}
+
+@media (max-width: 335px) {
+
+    .prev1 {
+
+        left: -15px;
+        top: 210px;
+    }
+    .next1 {
+
+        right: -15px;
+        top: 210px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn2    {
+        border-radius: 30px;
+        filter: drop-shadow(0px 3px 1.5px rgba(0,0,0,0.8));
+        background-color: #981717;
+        border: 1px solid #981717;
+        margin: 50px 0 0 70px;
+    }
+
+    .demo {
+
+        width: 100%;
+        height: auto;
+        margin-left: 17px;
+        padding-left: 10px;
+        opacity: 0.6;
+    }
+
+}
