@@ -34,7 +34,7 @@ function showGallery(n) {
     }
     slide[counter-1].style.display = "block";
     dot[counter-1].className += " active";
-    console.log(dot[counter-1])
+    // console.log(dot[counter-1])
     sectionBackground.style.backgroundImage = "url('" +  slide[counter-1].getAttribute('data-src') + "')";
     // captionText.innerHTML = dot[counter-1].alt;
 

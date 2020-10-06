@@ -477,12 +477,12 @@ svg {
 
 /*MEDIA  Slider*/
 @media (min-width: 1690px) {
-    .nav {
-        position: relative;
-        padding-left: -20%;
+    /*.nav {*/
+    /*    position: relative;*/
+    /*    padding-left: -30%;*/
 
 
-    }
+    /*}*/
 
     /*.box_logo {*/
     /*    float: right;*/
