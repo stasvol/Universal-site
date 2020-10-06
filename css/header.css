@@ -493,9 +493,9 @@ svg {
 @media (min-width: 1270px) {
     .text_div {
         /*padding-top: 5px;*/
-       min-width: 220px;
+       min-width: 260px;
         /*height: 34px;*/
-        font-size: 13px;
+        font-size: 16px;
         letter-spacing: 1px;
         line-height: 24px;
         color: #f8e8fe;
@@ -505,6 +505,7 @@ svg {
         font-family: "Open Sans";
         text-align: center;
         margin: 0;
+        padding: 5px 0 5px 0;
 
     }
     .box_logo {
