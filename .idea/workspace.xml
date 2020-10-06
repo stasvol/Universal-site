@@ -4,6 +4,11 @@
     <list default="true" id="63ba805b-fa50-4410-b2ac-b09702437733" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/012s.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/012s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/013s.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/013s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/12s.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/12s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/13s.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/13s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/12co!_03.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slide.js" afterDir="false" />
     </list>
@@ -36,6 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +88,10 @@
       <workItem from="1601657293140" duration="7902000" />
       <workItem from="1601731064909" duration="17668000" />
       <workItem from="1601762307221" duration="1084000" />
-      <workItem from="1601805815782" duration="12974000" />
+      <workItem from="1601805815782" duration="13633000" />
+      <workItem from="1601827753268" duration="15234000" />
+      <workItem from="1601914683265" duration="9171000" />
+      <workItem from="1602003626214" duration="10965000" />
     </task>
     <servers />
   </component>
@@ -111,6 +120,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601750067494" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1602010225379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602010225379" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1601577967680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

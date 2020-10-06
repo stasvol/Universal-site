@@ -3,55 +3,79 @@
 
 
 
+//
+var sectionBackground = document.getElementById('bg_section');
 
-
-    var counter = 1;
+var counter = 1;
 showGallery(counter);
 
 function plusGallery(n) {
     showGallery(counter += n);
+
 }
 
 function currentGallery(n) {
     showGallery(counter = n);
+
 }
 
 function showGallery(n) {
     var i;
     var slide = document.getElementsByClassName("mySlides1");
     var dot = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
+    // var captionText = document.getElementById("caption");
     if (n > slide.length) {counter = 1}
     if (n < 1) {counter = slide.length}
     for (i = 0; i < slide.length; i++) {
         slide[i].style.display = "none";
-    }
+}
     for (i = 0; i < dot.length; i++) {
         dot[i].className = dot[i].className.replace(" active", "");
     }
     slide[counter-1].style.display = "block";
     dot[counter-1].className += " active";
+    console.log(dot[counter-1])
+    sectionBackground.style.backgroundImage = "url('" +  slide[counter-1].getAttribute('data-src') + "')";
     // captionText.innerHTML = dot[counter-1].alt;
+
 }
 
-var elSlide = document.querySelectorAll ('.bg_slide');
-var sectionBackground = document.getElementById('bg_section');
 
 
-console.log(elSlide);
-elSlide.forEach(function (el) {
-    el.addEventListener('click', function () {
 
-        // const attr = elSlide.getAttribute('src');
-        // sectionBackground.style.backgroundImage = `url('${attr}')`;
-        sectionBackground.style.backgroundImage = "url('" + el.getAttribute('data-src') + "')";
+// var elSlide = document.querySelectorAll ('.bg_slide');
+// // var sectionBackground = document.getElementById('bg_section');
+//
+// elSlide.forEach(function (el) {
+//     el.addEventListener('click', function () {
+//
+//         // const attr = elSlide.getAttribute('src');
+//         // sectionBackground.style.backgroundImage = `url('${attr}')`;
+//         sectionBackground.style.backgroundImage = "url('" + el.getAttribute('data-src') + "')";
+//
+//
+//     } );
+//
+// });
 
 
-    } );
 
-});
-
-
+// var  swit = document.querySelectorAll('.arrow');
+//
+// swit.forEach(function (element) {
+//     // element.addEventListener('click',function () {
+//
+//     var elSlide = document.querySelectorAll ('.bg_slide');
+//
+//     elSlide.forEach(function (el) {
+//
+//         if (el.className.indexOf("active") !== -1) {
+//             sectionBackground.style.backgroundImage = "url('" + el.getAttribute('data-src') + "')";
+//         }
+//     });
+//
+//     // });
+// });
 
 
 
